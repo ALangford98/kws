@@ -1,17 +1,75 @@
+
+.Navbar{
+  left: 0;
+  top: 0;
+  position: fixed;
+  width:100%;
+  height: 50px;
+  background-color: #383838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  color: aliceblue;
+  z-index: 9;
+}
+.lnk{
+  text-decoration: none;
+  color: aliceblue;
+}
+li{
+  text-decoration: none;
+
+}
+
+.Navbar .HomeBar {
+  position: absolute;
+  left: 5px;
+}
+.Navbar .SearchBar {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  width: 40%;
+  height: 60%;
+  border-radius: 5px;
+  border-width: 0;
+  color: #666;
+}
+
+.HeadGap{
+  height: 30px;
+}
+
+.Navbar .CartBar {
+  position: absolute;
+  border-radius: 5px;
+  right: 15px;
+  width: 8%;
+  height: 70%;
+  background-color: aliceblue;
+}
+
+.Navbar .HelpBar{
+  position: absolute;
+  left: 70px;
+}
+
+.Navbar .CartBar .CartIcon{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  color:#282c34
+}
+
+
+
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +86,373 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+.scrollable-div {
+  padding-top: 50px;
+  display: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Set the height of the div */
+  width: 100%;
+  overflow: auto; /* Enable scrolling */
+
+}
+
+/* .Home{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+} */
+
+.ItemList{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+/* CARDS */
+
+/* ------------------------------------------------------- */
+/* ------------------------------------------------------- */
+
+.Dashboard {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.CategoryHead{
+  /* padding-top: 10px; */
+}
+
+.HalfCard {
+  width: 250px;
+  height: 125px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.HalfCard label{
+  display: block;
+}
+
+
+
+
+.Card {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+
+
+.Card label{
+  display: block;
+}
+
+.Wrapper .Card button{
+  margin-top: auto;
+  margin-bottom: 5%;
+  width: 40%;
+  background-color: #f56969;
+  color: white;
+  font-size: large;
+}
+
+.LargeCard {
+  width: 510px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+.LargeRecordingCard {
+  width: 510px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.LargeRecordingCard h3{
+  padding-bottom: 10px;
+}
+.machine-largeCard{
+  top: -80px;
+  width: 510px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+
+.LargeCard label{
+  display: block;
+}
+
+.VeryLargeCard {
+  width: 770px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.TableCard{
+  width: 770px;
+  height: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.CartCard{
+  width: 770px;
+  height: 580px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.HeadCard{
+  width: 25%;
+  height: 20%;
+  margin: 5px;
+  border-radius: 15px;
+  display: absolute;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.Row {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeadingRow {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+}
+.Row Label{
+  font-size: large;
+  font-weight: 500;
+}
+
+.Row description{
+  font-size:xx-large;
+}
+
+
+.TriCard {
+  width: 770px;
+  height: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.QuadCard {
+  width: 1030px;
+  height: 400px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.QuadCard_s{
+  width: 1030px;
+  height: 300px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e3e3e3;
+  color: #666;
+  font-size: 14px;
+}
+
+.QuadCard label{
+  display: block;
+}
+
+.Wrapper .LargeCard button{
+  margin-top: auto;
+  margin-bottom: 5%;
+  width: 20%;
+  background-color: #f56969;
+  color: white;
+  font-size: large;
+}
+
+
+.TransparentCard {
+  width: 250px;
+  height: 250px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #666;
+  font-size: 14px;
+}
+
+.TransparentCard label{
+  display: block;
+}
+
+.Wrapper .TransparentCard button{
+  margin-top: auto;
+  margin-bottom: 5%;
+  width: 40%;
+  background-color: #f56969;
+  color: white;
+  font-size: large;
+}
+
+.LargeTransparentCard {
+  width: 510px;
+  height: 150px;
+  margin: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #666;
+  font-size: 14px;
+}
+
+.LargeTransparentCard label{
+  display: block;
+}
+
+.Wrapper .LargeTransparentCard button{
+  margin-top: auto;
+  margin-bottom: 5%;
+  width: 20%;
+  background-color: #f56969;
+  color: white;
+  font-size: large;
+}
+
+
+.CartHead{
+  top: 5px;
 }
