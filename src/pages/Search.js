@@ -11,7 +11,7 @@ function Search() {
 
   return (
     <div>
-      <input className='SearchBar' value='Search' onSubmit={<Search />}>
+      <input className='SearchBar' value='Search (Work in Progress)' onSubmit={<Search />}>
       </input>
       <h1>{state.someValue}</h1>
     </div>
