@@ -1,5 +1,8 @@
 import React from 'react';
 import { useShoppingCart } from '../components/ShoppingCartContext';
+import CartList from './CartTabs/CartList';
+import DeliveryLocation from './CartTabs/DeliveryLocation';
+import PaymentMethod from './CartTabs/PaymentMethod';
 
 function CartTab({ activeTab }) {
   const { cart, removeItemFromCart } = useShoppingCart();
@@ -14,26 +17,9 @@ function CartTab({ activeTab }) {
 
   // Define different content for each tab
   const tabContents = [
-    <div className='CartList'>
-      
-      <ul>
-        <div className='CartItemCard'>
-        {cart.map((item) => (
-          <li key={item.id}>
-            <div className='CartItem'>
-              <span>{item.name}</span>
-              <br />
-              <span>Price: ${item.price}</span>
-            <button onClick={() => handleRemoveItem(item.id)}>Remove</button>
-            </div>
-          </li>
-        ))}
-        </div>
-      </ul>
-      <h1>Total: ${totalPrice.toFixed(2)}</h1> {/* Display the total price with two decimal places */}
-    </div>,
-    <div>Content for Delivery Location tab</div>,
-    <div>Content for Payment Method tab</div>
+    <CartList />,
+    <DeliveryLocation />,
+    <PaymentMethod />
   ];
 
   return <div className='CartCard'>{tabContents[activeTab]}</div>;
