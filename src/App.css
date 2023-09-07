@@ -544,3 +544,14 @@ li{
   right: 10px;
 }
 
+.DeliveryTab {
+  display: block;
+  overflow: auto;
+  height: 99%;
+  width: 99%;
+  border-radius: 10px;
+}
+
+.Mapbg {
+  border-radius: 100px;
+}
