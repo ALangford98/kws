@@ -1,0 +1,118 @@
+.PaymentTab {
+    width: 100%;
+    height: 100%;
+}
+
+.Method {
+    position: absolute;
+    left: 0%;
+    width: 50%;
+    height: 90%;
+}
+
+.methodContents {
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    text-align: left;
+}
+
+.methodConfirm {
+    position: absolute;
+    top: -15px;
+    left: 100px;
+}
+
+.Summary {
+    position: absolute;
+    right: 0%;
+    width: 50%;
+    height: 90%;
+}
+
+.Totals {
+    position: absolute;
+    text-align: left;
+    bottom: -15px;
+    right: 10px;
+}
+
+.values{
+    text-align: right;
+    font-weight: bold;
+}
+.Confirm {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    height: 10%;
+}
+
+.Confirm button {
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    width: 100px;
+    height:30px;
+}
+
+.confBut{
+    position:absolute;
+    top: 30%;
+    right: 2%;
+}
+
+.cancelBut{
+    position:absolute;
+    top: 30%;
+    right: 120px;
+}
+
+.PaymentItemCard {
+    position: absolute;
+    top :50px;
+    left: 10px;
+    width: 92%;
+    margin: 5px;
+    overflow: auto;
+    height:70%;
+    text-align: left;
+    border-left: 1px solid #96969660;
+  }
+  /* .PaymentItem button{
+    position:absolute;
+    right: 15px;
+    top: 10px;
+  } */
+
+  .listItem{
+    position:relative;
+  }
+  .RemovePayItem {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+  }
+.RemovePayItem button {
+    font-size:medium;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: #282c34;
+    background: none;
+    border: none;
+}
+
+.ItemText{
+    width: 80%;
+    text-align: left;
+}
+  
+  .PaymentItem {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: -15px;
+    border-bottom: 2px solid #5c5c5c;
+  }

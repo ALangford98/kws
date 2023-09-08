@@ -35,9 +35,9 @@ function Home() {
           <h1>All Products</h1>
           <div className='ItemList'>
             {products.map((product, index) => (
-              <div className='Card' key={index} onClick={() => handleItemClick(product)}>
+              <div className='FeaturedCard' key={index} onClick={() => handleItemClick(product)}>
                 <div className='Title'>{product.DESCRIPT}</div>
-                <p className='Price'>N${product.SELLPINC1}</p>
+                <p className='Price'>N${product.SELLPINC1.toFixed(2)}</p>
                 {/* Include other properties as needed */}
               </div>
             ))}
