@@ -7,9 +7,7 @@ function Cart() {
 
 
   return (
-    <div>
-      <div className='parent-container'>
-        <div className='scrollable-div'>
+        <div className='CartPage'>
           <div className='Row'>
             <div className={`HeadCard ${activeTab === 0 ? 'active' : ''}`} onClick={() => setActiveTab(0)}>
               <h3>1. Shopping Cart</h3>
@@ -27,8 +25,6 @@ function Cart() {
             <CartTab activeTab={activeTab} />
           </div>
         </div>
-      </div>
-    </div>
   );
 }
 
