@@ -1,0 +1,10 @@
+.CartPage {
+padding-top: 50px;
+  display: fixed;
+  align-items: center;
+  justify-content: center;
+  height: fit-content; /* Set the height of the div */
+  width: 100%;
+  overflow: auto; /* Enable scrolling */
+  padding-bottom: 10%;
+}

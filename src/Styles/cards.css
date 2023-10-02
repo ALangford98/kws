@@ -1,0 +1,292 @@
+/*Current cards*/
+
+.FeaturedCard {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #3c4350;
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  .CartCard{
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #3c4350;
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+  .HeadCard{
+    text-align: center;
+    width: 25%;
+    height: 20%;
+    margin: 5px;
+    border-radius: 15px;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #3c4350;
+    color: #aaaaaa;
+    font-size: 14px;
+  }
+
+
+
+/*Old cards*/
+
+
+
+
+.HalfCard {
+    width: 250px;
+    height: 125px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .HalfCard label{
+    display: block;
+  }
+  
+  .Card {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .Card label{
+    display: block;
+  }
+  
+  .Wrapper .Card button{
+    margin-top: auto;
+    margin-bottom: 5%;
+    width: 40%;
+    background-color: #f56969;
+    color: white;
+    font-size: large;
+  }
+  
+  .LargeCard {
+    width: 510px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  .LargeRecordingCard {
+    width: 510px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .LargeRecordingCard h3{
+    padding-bottom: 10px;
+  }
+  
+  .LargeCard label{
+    display: block;
+  }
+  
+  .VeryLargeCard {
+    width: 770px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .TableCard{
+    width: 770px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+
+  .TriCard {
+    width: 770px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .QuadCard {
+    width: 1030px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .QuadCard_s{
+    width: 1030px;
+    height: 300px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #e3e3e3;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .QuadCard label{
+    display: block;
+  }
+  
+  .Wrapper .LargeCard button{
+    margin-top: auto;
+    margin-bottom: 5%;
+    width: 20%;
+    background-color: #f56969;
+    color: white;
+    font-size: large;
+  }
+  
+  
+  .TransparentCard {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .TransparentCard label{
+    display: block;
+  }
+  
+  .Wrapper .TransparentCard button{
+    margin-top: auto;
+    margin-bottom: 5%;
+    width: 40%;
+    background-color: #f56969;
+    color: white;
+    font-size: large;
+  }
+  
+  .LargeTransparentCard {
+    width: 510px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .LargeTransparentCard label{
+    display: block;
+  }
+  
+  .Wrapper .LargeTransparentCard button{
+    margin-top: auto;
+    margin-bottom: 5%;
+    width: 20%;
+    background-color: #f56969;
+    color: white;
+    font-size: large;
+  }
