@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import ZapperPayments from './pages/ZapperPayments';
 
 import './Styles/cards.css'
 import './Styles/cart.css'
@@ -23,6 +24,7 @@ function App() {
           <Route path='/Help' Component={Help} />
           <Route path='/Cart' Component={Cart} />
           <Route path='/Search' Component={Search} />
+			<Route path='/ZapperPayments' Component={ZapperPayments} />
         </Routes>
       </Router>
     </div>
